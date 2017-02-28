@@ -1,0 +1,209 @@
+/* 
+***** F O N T *****
+*** C O N F I G ***
+*/
+
+div {
+	font-family: 'Open Sans', sans-serif !important;  
+	}
+p {
+	font-family: 'Open Sans', sans-serif !important;
+	margin-left: 20px !important; 
+	}
+.class {
+	font-family: 'Open Sans', sans-serif !important; 
+	}
+
+/**** Überschriften ****/
+
+h1, h1 a, h1 a:hover, h1 a:visited, h1 a:active, h1 a:link {
+	color: #152D54 !important;
+  	text-decoration: none;
+    text-align: center;
+	}
+
+h2 {
+	color: #4D658D !important;
+	margin: 10px 0 10px 5px !important;
+	}
+h3, h4, h5 {
+	color: #4D658D !important;
+	margin: 8px 0 8px 12px !important;
+	}
+
+/**** Tabellen ****/
+
+table {
+	border: 1px solid #4D658D;
+	margin: 0 auto;
+	}
+table, td, th {
+    border: 1px solid #4D658D;
+	}
+th {
+    background-color: #4D658D;
+	text-align: center !important;
+    color: white;
+	}
+	
+/* 
+***** Stundentafel *****
+*/
+
+#stundentafel {
+	background-color: #ffffff;
+	border: 0 none;
+	font-size: 100%;
+	}
+#stundentafel th {
+	border: 1px solid #4D658D;
+	padding: 2px 5px;
+	background-color: #4D658D;
+   	color: white;
+	text-align: center;
+	}
+#stundentafel td {
+	border: 1px solid #4D658D;
+	padding: 2px 5px;
+	}
+#stundentafel td.std {
+	padding:3px;
+	text-align: center;
+	}
+#stundentafel td.nr {
+	padding:3px;
+	text-align: right;
+	}
+#stundentafel td.bez {
+	padding:3px;
+	}
+
+/* 
+***** LISTEN STYLE *****
+*/
+
+ul, dl, ol {
+	margin-left: 40px;
+	}
+dd {
+  	margin-bottom: 8px;
+	}
+
+/* Links */
+
+a.pdf:after {
+	content:" "url(http://193.170.8.60/images/icons/pdf.jpg);
+	}
+a.doc:after {
+	content:" "url(http://193.170.8.60/images/icons/doc.jpg);
+	}
+a.ext:after {
+	content: "\2197\00A0"; /* Pfeil für externen Link */
+	color:#007F00;
+	}
+/* 
+***** SONSTIGES *****
+*/
+hr {
+	border: 0 !important;
+    height: 0 !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+	}
+
+#login {
+	background: #1c4c98;
+	float: left;
+	height: 36px;
+	}
+
+#social {
+	background: #1c4c98;
+	float: right;
+	text-align: center;
+	padding: 2px 0;
+	}
+
+#content {
+	margin: 0px auto;
+	padding: 1px 50px 40px 50px;
+	background-color: #FFF;
+	opacity: 0.9;
+	}
+/* footer */
+footer {
+	margin: 0 0 0;
+	color: #ffffff;
+}
+footer .bar {
+    background-color: #1c4c98;
+    padding: 10px 0 25px 0;
+    width:100%;
+	}
+footer .bar-wrap {
+    width: 95%;
+	}
+footer ul {
+    float: left;
+    list-style: none outside none;
+    position: relative;
+	}
+footer ul  li {
+    float: left;
+    margin-right: 50px;
+	}
+footer a, footer a:hover, footer a:visited, footer a:active, footer a:link {
+    color: #ffffff;
+    text-decoration: none;
+	}
+#impressum, #lageplan{
+    width:700px; 
+	position: absolute; 
+	top: 200px; 
+	left:50%; 
+	margin-left: -350px; 
+	padding:20px; 
+	background-color: #eeeeee;
+	}
+#lageplan dl, dd{
+	padding-left:30px; 
+	}
+/* responsive rules */
+@media screen and (max-width: 2000px){ }
+@media screen and (max-width: 1000px){
+footer ul {
+    float: none;
+    text-align: center;
+    }
+footer ul li {
+    display: inline-block;
+    float: none;
+    }
+.bar-wrap {
+    margin-bottom: 0px;
+    }
+}
+@media screen and (max-width: 835px)  {
+footer > ul li {
+    float: none;
+    width: auto;
+    }
+.bar-wrap {
+    margin-bottom:0px;
+    }
+}
+@media screen and (max-width: 768px)  {
+footer ul li {
+    margin-right:5px;
+    }
+.bar-wrap {
+	margin-bottom:0px;
+    }
+#impressum, #lageplan{
+    width:450px; 
+	position: absolute; 
+	top: 180px; 
+	left:50%; 
+	margin-left: -225px; 
+	}
+}
